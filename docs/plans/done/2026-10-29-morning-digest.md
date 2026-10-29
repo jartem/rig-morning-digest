@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-29
 ---
 
 # Morning digest
@@ -77,3 +78,18 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|-----------|--------|--------|
+| 1 | Run log reader and digest types | — | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 2 | Digest HTML page | #1 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 3 | Digest JSON API | #1 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 4 | Status board digest links and counts | #1 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 5 | Digest route tests | #1 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 6 | Publish self-contained digest preview | #2–#5 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 7 | Remove preview marker and archive plan | #6 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+| 8 | Remove preview marker and archive plan (duplicate of #7) | #6 | github-copilot · model not exposed · not recorded | 2026-10-29 |
+
+Preview: https://arquite.pl/rig/digest-2026-10-28.html, marker removed on 29 October. See ADR 0003.
